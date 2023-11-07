@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-wrapper {
+  background-image: url("../../assets/HeroSection-bg-image.jpg");
+  height: calc(100vh/1.15); /* You must set a specified height */
+  background-position: center; /* Center the image */
+  /* background-repeat: no-repeat; Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero-header {
+    padding-top: 150px;
+    font-size: 80px;
+    color: white;
+}
+
+.hero-subheading {
+    padding-top: 70px;
+    font-size: 28px;
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.travelblog-wrapper {
+  background-color: blanchedalmond;
+}
+
+.travelblog-image-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.travelblog-image-wrapper img {
+  width: 300px;
+  height: 400px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.travelblog-header {
+  font-size: 48px;
+  padding: 30px;
+}
+
+.travelblog-description {
+  padding: 20px;
+  font-size: 18px;
+}
